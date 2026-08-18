@@ -1,63 +1,70 @@
-# Brief v0.2.0 — Conciliación de gastos grupales
+# Brief v0.2.0 - Conciliación de gastos grupales
 
 ## Estado de la investigación
 
-Este documento es una actualización provisional del Brief v0.1. Las respuestas utilizadas para organizar los primeros hallazgos corresponden a una simulación de entrevistas y serán reemplazadas posteriormente por evidencias obtenidas de usuarios reales.
+Este documento actualiza el Brief v0.1 después de realizar dos entrevistas sobre experiencias reales y recientes de organización y conciliación de gastos grupales.
+
+También se utilizó una entrevista simulada con inteligencia artificial para probar la guía de preguntas y explorar un caso adicional. La simulación se encuentra identificada como tal y no se utiliza para confirmar los hallazgos obtenidos de los participantes reales.
 
 ## Problema revisado
 
-Las personas encargadas de organizar gastos grupales pueden perder tiempo reuniendo información distribuida entre mensajes, notas, comprobantes y recuerdos de los participantes.
+Las personas encargadas de organizar gastos grupales deben reunir y comparar manualmente información distribuida entre cuadernos, mensajes de WhatsApp, comprobantes de QR y pagos en efectivo.
 
-Esta situación dificulta calcular correctamente cuánto corresponde pagar a cada integrante, especialmente cuando los gastos se dividen de manera diferente, varias personas adelantan dinero o existen pagos parciales y pendientes.
+Esta situación dificulta mantener actualizado cuánto corresponde pagar a cada integrante, especialmente cuando existen gastos comunes y consumos particulares, pagos totales o parciales y aportes realizados en diferentes momentos.
 
-Al finalizar una actividad, el organizador puede confundirse al determinar quién debe dinero, cuánto debe, a quién debe pagarle y cuándo todas las cuentas están conciliadas.
+Después de la actividad, el organizador debe continuar revisando los pagos y recordando a las personas pendientes. Si alguien no regulariza su cuota, el encargado puede terminar asumiendo personalmente el monto faltante.
 
 ## Usuario y contexto
 
-El usuario principal es la persona encargada de organizar una actividad grupal y administrar los gastos compartidos.
+El usuario principal es la persona encargada de organizar una actividad entre amigos y administrar los gastos compartidos.
 
-Esta situación puede presentarse durante viajes, comidas, fiestas, paseos, trabajos universitarios o compras realizadas entre amigos o compañeros.
+Las entrevistas permitieron observar esta tarea en dos actividades sociales relacionadas con comida: un churrasco de aproximadamente 20 personas y una choripaneada de 6 personas.
 
-La tarea se realiza antes, durante y después de la actividad, generalmente desde el celular y con las siguientes limitaciones:
+La tarea ocurre antes, durante y después de la actividad, generalmente con las siguientes condiciones y limitaciones:
 
-- Los gastos pueden ser pagados por diferentes integrantes.
-- La información puede quedar registrada en distintos lugares.
-- No todos los gastos corresponden a las mismas personas.
-- La división puede ser igual o mediante montos diferentes.
-- Algunos integrantes pueden realizar pagos completos o parciales.
-- Los pagos en efectivo pueden no tener un comprobante.
-- Los cálculos deben repetirse cuando aparece un gasto o pago nuevo.
+- Una persona concentra la compra, el registro, el cobro y la rendición de cuentas.
+- Los gastos comunes pueden dividirse entre todos y los consumos particulares asignarse individualmente.
+- Los integrantes pueden pagar por QR o en efectivo.
+- Los pagos pueden ser completos, parciales o quedar pendientes.
+- Los pagos se realizan durante la actividad, al finalizar o en días posteriores.
+- La información puede quedar distribuida entre cuadernos, mensajes y comprobantes.
+- El organizador necesita revisar y actualizar manualmente quién ya pagó y quién continúa pendiente.
 
-## Evidencia provisional
+## Evidencia
 
-Las siguientes observaciones provienen de una simulación utilizada para preparar la investigación. No representan todavía entrevistas realizadas a usuarios reales:
+### Entrevista real P1
 
-- La información puede quedar repartida entre mensajes, comprobantes y notas personales.
-- Cuando varias personas adelantan dinero, puede ser difícil decidir quién debe pagarle a quién.
-- Los pagos en efectivo pueden olvidarse cuando no existe un comprobante.
-- Los pagos parciales obligan a revisar nuevamente los cálculos y saldos pendientes.
+En un churrasco de aproximadamente 20 personas, el encargado compró los insumos, dividió los gastos comunes y añadió los consumos particulares a las cuotas correspondientes. Recibió pagos totales y parciales mediante QR y efectivo, y comparó manualmente el cuaderno con los mensajes y comprobantes.
 
-Estas observaciones serán contrastadas y reemplazadas mediante entrevistas reales.
+El seguimiento continuó después de la actividad. En un caso, una persona abandonó el grupo sin pagar y el encargado terminó cubriendo la cuota pendiente.
 
-## Insight provisional
+### Entrevista real P2
 
-El problema principal no consiste solamente en sumar y dividir el total de una actividad. El organizador necesita conservar un registro centralizado y comprensible que permita identificar la siguiente acción: quién debe pagar, cuánto debe y a quién debe pagarle.
+En una choripaneada de 6 personas, los gastos comunes se dividieron entre los integrantes y los consumos particulares se sumaron solamente a la cuota de quien los realizó. La información se registró en un cuaderno y el seguimiento se realizó mediante WhatsApp.
 
-También debemos considerar que una división exclusivamente en partes iguales no representa todos los casos, porque algunos gastos pueden corresponder solamente a determinados integrantes o dividirse mediante montos diferentes.
+Algunas personas pagaron durante la actividad, otras al finalizar y otras en los días siguientes. La persona encargada revisó los pendientes y envió recordatorios antes de la siguiente actividad.
 
-Este aprendizaje continúa pendiente de validación con usuarios reales.
+### Simulación complementaria con IA
+
+Se simuló un paseo de 8 personas para probar las preguntas y explorar la corrección de un gasto personal registrado por error como gasto compartido. Este caso no corresponde a una persona real y se conserva únicamente como exploración complementaria; no se utiliza para validar el problema.
+
+## Insight
+
+El problema principal no consiste solamente en sumar y dividir el total. El organizador necesita mantener un registro centralizado, actualizado y comprensible de gastos comunes, consumos particulares, pagos completos o parciales y saldos pendientes, aunque la información llegue por diferentes medios y en distintos momentos.
+
+La conciliación tampoco termina al finalizar la actividad. El seguimiento posterior forma parte de la tarea: el encargado necesita saber quién ya pagó, quién continúa pendiente y cuándo puede considerar cerradas las cuentas sin asumir montos ajenos.
 
 ## Hipótesis revisada
 
-Creemos que las personas encargadas de organizar gastos grupales necesitan centralizar los gastos, aportes y pagos de cada integrante, porque la información dispersa y las divisiones diferentes pueden provocar confusión y obligarlas a repetir cálculos.
+Creemos que las personas encargadas de organizar gastos grupales necesitan centralizar los gastos, aportes y pagos de cada integrante, porque el registro manual y disperso dificulta actualizar los saldos y prolonga el seguimiento de las cuentas pendientes.
 
-Si diseñamos una aplicación móvil que permita registrar los gastos, dividirlos en partes iguales o diferentes y mostrar saldos actualizados, esperamos que el organizador pueda identificar quién debe, cuánto debe y a quién debe pagar sin reconstruir manualmente todas las cuentas.
+Si diseñamos una aplicación móvil que permita diferenciar gastos comunes y particulares, registrar pagos completos o parciales y mostrar saldos actualizados, esperamos que el organizador pueda identificar quién debe, cuánto debe y a quién debe pagar sin reconstruir manualmente la información del cuaderno, WhatsApp y los comprobantes.
 
-Todavía falta comprobar qué información necesitan ver los usuarios para comprender y confiar en los cálculos.
+Todavía falta comprobar quién debería confirmar cada pago, qué información genera confianza en los cálculos y cómo debe registrarse una corrección o desacuerdo.
 
 ## Alcance inicial
 
-La primera versión se concentrará en la conciliación de una actividad grupal.
+La primera versión se concentrará en la conciliación de una sola actividad grupal.
 
 Incluirá:
 
@@ -67,9 +74,11 @@ Incluirá:
 - Indicar qué integrante realizó el pago.
 - Seleccionar qué integrantes participan del gasto.
 - Dividir el gasto en partes iguales o mediante montos diferentes.
-- Calcular cuánto debe cada integrante.
+- Registrar consumos particulares asignados a integrantes específicos.
+- Calcular cuánto corresponde pagar a cada integrante.
 - Mostrar quién debe pagar, cuánto debe y a quién.
 - Registrar pagos completos, parciales o pendientes.
+- Actualizar los saldos después de cada pago.
 - Mostrar cuándo las cuentas de la actividad están conciliadas.
 
 ## Fuera de alcance
@@ -80,7 +89,7 @@ La primera versión no incluirá:
 - Integración con bancos o billeteras móviles.
 - Manejo de diferentes monedas.
 - Lectura automática de comprobantes.
-- Notificaciones automáticas.
+- Notificaciones o recordatorios automáticos.
 - Chat entre los integrantes.
 - Reportes financieros avanzados.
 - Administración avanzada de cuentas y perfiles.
@@ -90,16 +99,17 @@ La primera versión no incluirá:
 1. El organizador crea una actividad.
 2. Agrega a los integrantes que compartirán los gastos.
 3. Registra un gasto, su monto y la persona que lo pagó.
-4. Selecciona qué integrantes participan y si la división será igual o diferente.
-5. La aplicación calcula cuánto debe cada integrante y a quién debe pagarle.
-6. El organizador registra los pagos completos, parciales o pendientes.
-7. La aplicación actualiza los saldos y muestra la actividad como conciliada cuando ya no existen deudas.
+4. Selecciona qué integrantes participan y si la división será igual o mediante montos diferentes.
+5. Registra los consumos particulares cuando correspondan.
+6. La aplicación calcula cuánto corresponde pagar a cada integrante y a quién debe pagarle.
+7. El organizador registra los pagos completos, parciales o pendientes.
+8. La aplicación actualiza los saldos y muestra la actividad como conciliada cuando ya no existen deudas.
 
 ## Primera tarea priorizada
 
 Registrar un gasto compartido y mostrar cuánto debe cada integrante y a quién debe pagarle.
 
-Esta tarea permitirá comprobar primero la función central del proyecto, antes de implementar todas las demás funcionalidades.
+Esta tarea permitirá comprobar primero la función central del proyecto antes de implementar el seguimiento completo de pagos y otras funcionalidades.
 
 ## Criterios de éxito
 
@@ -109,22 +119,31 @@ Esta tarea permitirá comprobar primero la función central del proyecto, antes 
 
 ## Primer requerimiento
 
-La aplicación debe permitir al organizador registrar un gasto indicando el monto, la persona que pagó, los integrantes involucrados y el tipo de división —igual o diferente—, para calcular y mostrar cuánto debe cada integrante y a quién debe pagar.
+La aplicación debe permitir al organizador registrar un gasto indicando el monto, la persona que pagó, los integrantes involucrados y el tipo de división -igual o mediante montos diferentes-, para calcular y mostrar cuánto debe cada integrante y a quién debe pagar.
 
 ## Preguntas abiertas
 
-- ¿Cómo se decidirá a quién pagar cuando varias personas hayan adelantado diferentes gastos?
-- ¿Quién debe confirmar un pago: quien paga, quien recibe o el organizador?
-- ¿Qué información necesita ver cada integrante para comprender y confiar en el cálculo?
-- ¿Cómo debe corregirse un gasto o pago registrado incorrectamente?
-- ¿Es necesario conservar un comprobante o confirmación de cada pago?
-- ¿Qué información mínima se necesita para considerar una actividad completamente conciliada?
+- ¿Quién debería confirmar un pago: quien paga, quien recibe o la persona organizadora?
+- ¿Qué información mínima necesita el organizador para verificar un pago en efectivo?
+- ¿Cómo debería registrarse una corrección o un desacuerdo sobre un gasto?
+- ¿Cómo se determina a quién pagar cuando más de una persona adelantó dinero?
+- ¿Qué información permite considerar que una actividad está completamente conciliada?
+- ¿Cómo se puede apoyar el seguimiento sin generar conflictos entre los integrantes?
 
-## Cambios respecto al Brief v0.1
+## Limitaciones de la investigación
 
-- Se mantuvo el problema de registrar, dividir y conciliar gastos compartidos.
-- Se amplió la división para considerar partes iguales y montos diferentes.
-- Se incorporaron pagos completos, parciales y pendientes.
-- Se priorizó como primera tarea registrar un gasto y mostrar quién debe pagar a quién.
-- Se excluyeron pagos electrónicos, integraciones bancarias, notificaciones, chat y reportes avanzados.
-- La evidencia y los hallazgos provisionales deberán actualizarse después de realizar las entrevistas reales.
+- Se realizaron solamente dos entrevistas reales, por lo que los resultados todavía no representan a todos los grupos de amigos.
+- Las experiencias estudiadas corresponden a actividades sociales relacionadas con comida y tuvieron tamaños diferentes.
+- Parte de las respuestas fue registrada como síntesis y no como transcripción literal completa.
+- La simulación con IA es exploratoria y no constituye evidencia empírica.
+
+## Cambios respecto al Brief v0.1 y a la versión provisional
+
+- Se reemplazó la evidencia basada únicamente en simulaciones por dos entrevistas reales.
+- Se conservó una simulación complementaria con IA, identificada claramente y sin utilizarla para validar el problema.
+- Se precisó el usuario como la persona encargada de organizar y conciliar gastos entre amigos.
+- Se confirmó la existencia de gastos comunes y consumos particulares.
+- Se confirmó que los pagos pueden ser totales, parciales, en efectivo, por QR y realizados en diferentes momentos.
+- Se incorporó el seguimiento posterior y el riesgo de que el organizador cubra montos faltantes.
+- Se mantuvo como primera tarea registrar un gasto y mostrar quién debe pagar, cuánto y a quién.
+- Se mantuvieron fuera de alcance las integraciones bancarias, los pagos electrónicos, las notificaciones automáticas, el chat y los reportes avanzados.
