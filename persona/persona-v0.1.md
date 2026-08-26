@@ -1,6 +1,6 @@
 # Persona v0.1
 
-**NOMBRE:** Alex, responsable de organizar una actividad grupal.
+**NOMBRE:** Seferino, responsable de organizar una actividad grupal.
 
 **SITUACIÓN:** Organiza actividades entre amigos y administra los gastos antes, durante y después. Registra información entre cuadernos, WhatsApp, comprobantes QR y efectivo.
 
@@ -12,7 +12,7 @@
 
 **EVIDENCIA:** P1 y P2 concentraron la compra, el registro, el cobro y el seguimiento. Ambos utilizaron un cuaderno y WhatsApp; P1 también comparó pagos completos y parciales realizados por QR y efectivo.
 
-> “Alex” es un nombre representativo. No se incluyen datos personales que no fueron investigados.
+> “Seferino” es un nombre representativo. No se incluyen datos personales que no fueron investigados.
 
 ## App Map v0.1
 
@@ -20,10 +20,10 @@
 
 Inicio → Actividad → Gastos → Registrar gasto → Saldos
 
-- **Inicio:** crear o abrir una actividad.
+- **Inicio:** crear o Seleccionar una actividad.
 - **Actividad:** consultar integrantes, gastos, pagos y conciliación.
 - **Integrantes:** agregar participantes.
-- **Gastos:** registrar monto, pagador, participantes y división.
+- **Gastos:** registrar monto, pagador, participantes y división en partes iguales.
 - **Saldos:** ver quién debe, cuánto y a quién.
 - **Pagos:** registrar pagos completos, parciales o pendientes.
 
@@ -31,7 +31,7 @@ Inicio → Actividad → Gastos → Registrar gasto → Saldos
 
 **Tarea:** Registrar un gasto compartido.
 
-Abrir aplicación → Abrir actividad → Registrar gasto → Ingresar monto y pagador → Seleccionar integrantes → Elegir división → Confirmar → Ver quién debe, cuánto y a quién.
+Abrir aplicación → Seleccionar actividad → Registrar gasto → Ingresar monto y pagador → Seleccionar integrantes → Elegir el gasto en partes iguales → Confirmar → Ver quién debe, cuánto y a quién.
 
 **RESULTADO:** El gasto queda registrado y el organizador identifica los saldos sin utilizar una calculadora externa.
 
