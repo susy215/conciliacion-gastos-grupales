@@ -36,3 +36,21 @@ Abrir aplicación → Seleccionar actividad → Registrar gasto → Ingresar mon
 **RESULTADO:** El gasto queda registrado y el organizador identifica los saldos sin utilizar una calculadora externa.
 
 **PREGUNTA PENDIENTE:** ¿Cómo se determina a quién pagar cuando más de una persona adelantó dinero?
+
+
+## Segundo flujo v0.1
+
+**Tarea:** Crear una actividad.
+
+Abrir aplicación → Seleccionar Crear actividad → Elegir una sugerencia o ingresar el nombre de la actividad → Confirmar creación → Ver la actividad creada.
+
+**RESULTADO ACTUAL DEL MVP:** La interfaz confirma la creación y muestra el nombre de la actividad durante la ejecución actual.
+
+**DECISIÓN DE DISEÑO:** El campo ofrece actividades sugeridas, pero permite escribir un nombre diferente.
+
+**PREVENCIÓN DE ERROR:** Si el nombre está vacío, la aplicación solicita que se ingrese uno antes de continuar.
+
+**LÍMITES ACTUALES:**
+
+- La actividad no permanece guardada después de actualizar la página.
+- Todavía no permite registrar gastos porque primero necesita que se agreguen sus integrantes.

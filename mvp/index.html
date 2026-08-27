@@ -5,10 +5,42 @@
         <title>Conciliacion de gastos grupales</title>
     </head>
         <body>
+
             <h1> Conciliacion de gastos grupales</h1>
-            <h2>Seleccionar actividad</h2>
-            <p>Elige la actividad para registrar un gasto compartido</p>
-            <button id = "actividad">Paseo a Samaipata</button>
+            
+            <h2>Actividades</h2>
+            <p>Selecciona una actividad existente o crea una nueva</p>
+
+            <button id="crearActividad">Crear actividad</button>
+            <br>
+            <button id="actividad">Paseo a Samaipata</button>
+    
+    <div id="formularioActividad" style="display: none;">
+        <h2>Crear actividad</h2>
+
+        <label for="nombreActividad">Nombre de la actividad:</label>
+        <input type="text" id="nombreActividad" list="actividadesSugeridas">
+
+        <datalist id="actividadesSugeridas">
+            <option value="Choripaneada">
+            <option value="Churrasco">
+            <option value="Cine">
+            <option value="Teatro">
+            <option value="Paseo o viaje">
+        </datalist>
+
+        <br>
+        <button id="confirmarActividad">Confirmar creación</button>
+    </div>
+     
+    <div id="resultadoActividad" style="display: none;">
+        <h3>Actividad creada</h3>
+        <p id="mensajeActividad"></p>
+        <p id="actividadNueva"></p>
+
+        <!-- <button id="actividadNueva"></button> -->
+         
+    </div>
 
     <div id="registro" style="display: none;">
         <h2>Registrar gasto</h2>

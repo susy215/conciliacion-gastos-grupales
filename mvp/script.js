@@ -7,6 +7,39 @@ let betoGuardado;
 let carlaGuardada;
 let diegoGuardado;
 
+const botonCrearActividad = document.getElementById("crearActividad");
+
+botonCrearActividad.addEventListener("click", function(){
+
+    document.getElementById("formularioActividad").style.display = "block";
+
+});
+
+
+
+const botonConfirmarActividad = document.getElementById("confirmarActividad");
+
+botonConfirmarActividad.addEventListener("click", function(){
+
+    const nombreActividad = document.getElementById("nombreActividad").value.trim(); // .trim elimina espacios inneceasarios
+
+    if (nombreActividad === "") {
+        alert("Ingresa el nombre de la actividad");
+        return;
+    }
+
+    document.getElementById("mensajeActividad").textContent =
+    "La actividad " + nombreActividad + " fue creada";
+
+    document.getElementById("actividadNueva").textContent = nombreActividad;
+    
+    document.getElementById("formularioActividad").style.display = "none";
+    document.getElementById("resultadoActividad").style.display = "block";
+
+});
+
+
+
 const botonActividad = document.getElementById("actividad");
 
 
