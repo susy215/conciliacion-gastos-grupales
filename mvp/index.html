@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Conciliacion de gastos grupales</title>
+    </head>
+        <body>
+            <h1> Conciliacion de gastos grupales</h1>
+            <h2>Seleccionar actividad</h2>
+            <p>Elige la actividad para registrar un gasto compartido</p>
+            <button id = "actividad">Paseo a Samaipata</button>
+
+    <div id="registro" style="display: none;">
+        <h2>Registrar gasto</h2>
+        <label>Monto:</label>
+        <input type="number" id="monto">
+        <br>
+        <label>Pagador:</label>
+        
+        <select id="pagador">
+            <option>Ana</option>
+            <option>Beto</option>
+            <option>Carla</option>
+            <option>Diego</option>
+         
+        </select>
+
+        <h3>Seleccionar integrantes</h3>
+        <input type="checkbox" id="ana">
+        <label for="ana">Ana</label>
+
+        <br>
+        <input type="checkbox" id="beto">
+        <label for="beto">Beto</label>
+
+        <br>
+        <input type="checkbox" id="carla">
+        <label for="carla">Carla</label>
+
+        <br>
+        <input type="checkbox" id="diego">
+        <label for="diego">Diego</label>  
+
+         <br>
+        <button id="registrar">Registrar gasto</button>
+
+        <div id="confirmacion" style="display: none;">
+            <h3>Confirmar gasto</h3>
+            <p id="resumen"></p>
+            <button id="confirmar">Confirmar</button>
+        </div>
+
+        <div id="resultado" style="display: none;">
+            <h3>Resultado</h3>
+            <p id="saldos"></p>
+        </div>
+
+    </div>
+            <script src="script.js"></script>
+        </body>
+
+</html>
