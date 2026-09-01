@@ -1,0 +1,72 @@
+:root {
+    --espacio-1: 8px;
+    --espacio-2: 16px;
+    --espacio-3: 24px;
+    --espacio-4: 32px;
+}
+
+body {
+    max-width: 480px;
+    margin: 0 auto;
+    padding: var(--espacio-4);
+    font-family: Arial, sans-serif;
+    color: #222222;
+}
+
+h1 {
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: var(--espacio-4);
+}
+
+h2 {
+    font-size: 22px;
+    margin-top: var(--espacio-3);
+    margin-bottom: var(--espacio-2);
+}
+
+p {
+    margin-bottom: var(--espacio-2);
+}
+
+button {
+    display: block;
+    padding: var(--espacio-1) var(--espacio-2);
+    margin-bottom: var(--espacio-1);
+    border: 1px solid #444444;
+    background-color: white;
+}
+
+#crearActividad,
+#confirmarActividad {
+    background-color: #222222;
+    color: white;
+}
+
+#formularioActividad {
+    margin-top: var(--espacio-4);
+    padding: var(--espacio-3);
+    border: 1px solid #999999;
+}
+
+#formularioActividad h2 {
+    margin-top: 0;
+}
+
+#formularioActividad label {
+    display: block;
+    margin-bottom: var(--espacio-1);
+}
+
+#nombreActividad {
+    width: 100%;
+    padding: var(--espacio-1);
+    margin-bottom: var(--espacio-2);
+    box-sizing: border-box;
+}
+
+#resultadoActividad {
+    margin-top: var(--espacio-3);
+    padding: var(--espacio-2);
+    border: 1px solid #999999;
+}
